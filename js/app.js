@@ -142,7 +142,7 @@ latestScore = Number(r[1])
 }
 })
 
-if(latestScore >= 75/100){
+if(latestScore >= 75){
 approvedTest++
 }
 
@@ -318,7 +318,7 @@ container.appendChild(btn)
 
 if(group == "posttest"){
 
-if(latestScore >= 75/100){
+if(latestScore >= 75){
 
 previousPassed = true
 
